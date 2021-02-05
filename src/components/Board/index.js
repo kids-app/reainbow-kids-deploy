@@ -7,9 +7,10 @@ function Board({ squares, onClick }) {
         borderRadius: '10px',
         width: '450px',
         height: '450px',
-        margin: '0 auto',
+        // margin: '0 auto',
         marginTop:'150px',
         display: 'grid',
+        marginLeft:' 500px',
         
         
         gridTemplate: 'repeat(3, 1fr) / repeat(3, 1fr)'

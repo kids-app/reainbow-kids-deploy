@@ -18,7 +18,7 @@
     margin-top: 0;
     cursor: pointer;
     width: 100%;
-    background: #78FED6;
+    /* background-color: #A4DEF8; */
     border-radius: 10px;
     font-family: Century Gothic;
     letter-spacing: 5px;
@@ -31,10 +31,11 @@
     height: 40px;
     margin-top: 12%;
    transition-duration: 0.2s;
+   
   
   }
   .p:hover{
-    background: white;
+    /* background: white; */
     color: black;
    
   }

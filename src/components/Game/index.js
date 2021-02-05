@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Board from '../Board'
 import { calculateWinner } from '../../winner'
 import './style.css'
-
+import Nav3 from '../../components/nav3';
 
 function Game() {
     const [history, setHistory] = useState([Array(9).fill(null)])
@@ -37,9 +37,16 @@ function Game() {
             else{
                 const destination = "Restart"
                 return (
+                    <>
+                    <div class='divnavgame'>
+                     <Nav3 />
                     <li className='listButtons' key={move}>
+                        
                         <button className='buttons' onClick={() => jumpTo(move)}>{destination}</button>
+                        
                     </li>
+                    </div>
+                    </>
                 )
             }
         
@@ -53,7 +60,7 @@ function Game() {
     return (
         <>
             <div className="player">
-                <p>{winner ? 'Winner: ' + winner : 'Turn: ' + (isXNext ? 'X' : 'O')}</p>
+                <p class='winnerpar'>{winner ? 'Winner: ' + winner : 'Turn: ' + (isXNext ? 'X' : 'O')}</p>
             </div>
             <Board className = 'board'squares={history[stepNumber]} onClick={handleClick} />
             <div className="moves">

@@ -1,18 +1,19 @@
 body {
-    background-image: url("../pics/back13.png");
+    background-image: url("../pics/final2.png");
 	background-size: cover;
   background-repeat: no-repeat;
   
   font-family: 'Potta One', cursive;
 	
-
+width:auto;
 	margin: 0;
-	padding: 0;
+  padding: 0;
+  /* overflow: hidden; */
 }
 
 
 
-.ball {
+.ballmain {
    
   
     display: inline-block;
@@ -21,7 +22,7 @@ body {
     border-radius: 100%;
     /* position: relative; */
     background: radial-gradient(circle at bottom, #81e8f6, #76deef 10%, #055194 80%, #062745 100%); }
-    .ball:before {
+    .ballmain:before {
       content: "";
       position: absolute;
       top: 1%;
@@ -33,7 +34,7 @@ body {
       -webkit-filter: blur(5px);
       filter: blur(5px);
       z-index: 2; }
-    .ball:after {
+    .ballmain:after {
       content: "";
       position: absolute;
       display: none;
@@ -47,7 +48,7 @@ body {
       z-index: 2;
       -webkit-transform: rotateZ(-30deg);
       transform: rotateZ(-30deg); }
-    .ball .shadow {
+    .ballmain .shadow {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -55,15 +56,15 @@ body {
       -webkit-transform: rotateX(90deg) translateZ(-160px);
       transform: rotateX(90deg) translateZ(-160px);
       z-index: 1; }
-    .ball.plain {
+    .ballmain.plain {
       background: black; }
-      .ball.plain:before, .ball.plain:after {
+      .ballmain.plain:before, .ballmain.plain:after {
         display: none; }
-    .ball.bubble {
+    .ballmain.bubble {
       background: radial-gradient(circle at 50% 55%, rgba(240, 245, 255, 0.9), rgba(240, 245, 255, 0.9) 40%, rgba(225, 238, 255, 0.8) 60%, rgba(43, 130, 255, 0.4));
       -webkit-animation: bubble-anim 2s ease-out infinite;
       animation: bubble-anim 2s ease-out infinite; }
-      .ball.bubble:before {
+      .ballmain.bubble:before {
         -webkit-filter: blur(0);
         filter: blur(0);
         height: 80%;
@@ -71,7 +72,7 @@ body {
         background: radial-gradient(circle at 130% 130%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 46%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 58%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 100%);
         -webkit-transform: translateX(131%) translateY(58%) rotateZ(168deg) rotateX(10deg);
         transform: translateX(131%) translateY(58%) rotateZ(168deg) rotateX(10deg); }
-      .ball.bubble:after {
+      .ballmain.bubble:after {
         display: block;
         background: radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 74%, white 80%, white 84%, rgba(255, 255, 255, 0) 100%); }
   
@@ -500,8 +501,8 @@ body {
         width: 250px;
         height: 250px;
         display: inline-block;
-        margin-left: 150px;
-        margin-top: 300px;
+        margin-left: 100px;
+        margin-top: 150px;
         -webkit-perspective: 1200px;
         -moz-perspective: 1200px;
         -ms-perspective: 1200px;
@@ -736,8 +737,8 @@ body {
     
       margin-left: 610px;
       margin-top:0% ;
-      background-color: #F195BE;
-      border: solid 2px  #F195BE;
+      background-color: #816f91;
+      border: solid 2px  #816f91;
       border-radius: 2%;
       color: white;
       font-size: xx-large;
@@ -795,3 +796,5 @@ body {
 .xogame{
   margin-left: 300px;
 }
+
+

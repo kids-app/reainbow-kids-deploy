@@ -3,6 +3,7 @@ import "../css/home.css";
 import { Redirect } from "react-router-dom";
 import { Link } from 'react-router-dom';
 // import Nav from 'components/nav.js';
+import Footer from './footer';
 
 
 class Home extends React.Component {
@@ -22,13 +23,14 @@ class Home extends React.Component {
     render() {
         return (
             <>
-           
-          
+             
+          <Footer />
                 {this.renderlogin()}
                 <main class='main'>
+              
                     <section class="stage">
                         <Link onClick={this.setRedirect}>
-                            <figure class="ball bubble"><img alt='img' class='img1' src={require('../pics/story3.png')}/></figure>
+                            <figure class="ballmain bubble"><img class='img1' src={require('../pics/story3.png')}/></figure>
                         </Link>
                         
                         
@@ -50,8 +52,9 @@ class Home extends React.Component {
                         </Link>
                     </section>
                     <button class="signin" type="button" onClick={this.setRedirect}>Sign In</button>
+                    
                 </main>
-                <script src="app.js"></script>
+               
                 
             </>
         )

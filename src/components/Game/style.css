@@ -1,7 +1,9 @@
 .listButtons {
     list-style: none;
-    margin-bottom: 1000px;
+    /* margin-bottom: 1000px; */
     text-align: center;
+    margin-left: 1025px;
+    box-shadow: 5px 10px 18px #888888
 }
 
 .buttons {
@@ -18,14 +20,14 @@
 }
 
 .player {
-    margin-left: 100px;
+    margin-left: 1100px;
     margin-top: 50px;
     display: inline-block;
    position: absolute;
     text-align: center;
     font-weight: 1000;
     font-size: 50px;
-   
+    
     color: rgb(8, 8, 8);
 }
 

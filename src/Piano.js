@@ -1,5 +1,6 @@
 import React from "react";
 import Instrument from "./Instrument";
+import Nav from "./components/nav";
 
 const Piano = () => {
   const accidentalKey = ({ isPlaying, text, eventHandlers }) => {
@@ -57,6 +58,7 @@ const Piano = () => {
   };
 
   return (
+    <>
     <div className="piano-container">
       <Instrument
         instrumentName={"acoustic_grand_piano"}
@@ -103,6 +105,8 @@ const Piano = () => {
         }}
       />
     </div>
+    <Nav />
+    </>
   );
 };
 

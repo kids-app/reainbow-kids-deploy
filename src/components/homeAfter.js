@@ -2,6 +2,7 @@ import React from 'react';
 import "../css/home.css";
 import { Redirect } from "react-router-dom";
 import { Link } from 'react-router-dom';
+import Footer from './footer';
 
 
 class HomeAfter extends React.Component {
@@ -21,11 +22,12 @@ class HomeAfter extends React.Component {
     render() {
         return (
             <>
+            <Footer />
                 <main>
                     <section class="stage">
 
                         <Link to='/stories' >
-                            <figure class="ball bubble"><img alt='img' class='img1' src={require('../pics/story3.png')}/></figure>
+                            <figure class="ballmain bubble"><img class='img1' src={require('../pics/story3.png')}/></figure>
                         </Link>
                     </section>
                     <section class="stage2">

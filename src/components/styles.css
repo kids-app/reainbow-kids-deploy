@@ -1,0 +1,20 @@
+.PianoDarkTheme{
+  margin-top: 310px;
+  
+}
+
+.PianoDarkTheme .ReactPiano__Key--accidental {
+    background: #0b0c0c;
+    border: 1px solid #888;
+  }
+  .PianoDarkTheme .ReactPiano__Key--natural {
+    background: #348a8d;
+    border: 1px solid #888;
+    margin-right: 0;
+  }
+  .PianoDarkTheme .ReactPiano__Key--active.ReactPiano__Key--accidental {
+    background: #0396ca;
+  }
+  .PianoDarkTheme .ReactPiano__Key--active.ReactPiano__Key--natural {
+    background: #0396ca;
+  }

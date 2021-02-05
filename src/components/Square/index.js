@@ -11,7 +11,7 @@ function Square({ value, onClick }) {
         outline: 'none'
     }
 
-    //se value for 'X' a cor da fonte será vermelha. Senão será azul
+    
     style.color = value === 'X' ? '#4d001f' : 'darkblue'
     
 

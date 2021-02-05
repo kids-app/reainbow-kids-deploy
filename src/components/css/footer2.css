@@ -1,0 +1,41 @@
+/* 
+body {
+    font-family: "Lato", sans-serif;
+  } */
+  
+  .sidenavfooter2 {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:  #9dd8f7b4;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenavfooter2 a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    margin-top: 40%;
+    margin-left: 10%;
+    background-color:#f98eba91 ;
+    width: 110px;
+    height: 30px;
+    box-shadow: 5px 5px #9DD8F7, 10px 10px #f98ebb, 15px 15px #FAF088;
+    padding-top: 10%;
+    
+    
+  }
+  
+  .sidenavfooter2 a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  
+  

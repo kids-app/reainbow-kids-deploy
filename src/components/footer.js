@@ -7,40 +7,26 @@ import "../css/nav.css";
 
 
 function Footer() {
+
+    
 	return (
 		<>
-     {/* <section class="stagee">
+        <div class='menucontainer'>
+  <nav class="menu">
+   <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+   <label class="menu-open-button" for="menu-open">
+    <span class="lines line-1"></span>
+    <span class="lines line-2"></span>
+    <span class="lines line-3"></span>
+  </label>
 
-<Link to='/stories' >
-    <figure class="balll"><img class='imgg' src={require('../pics/story3.png')}/></figure>
-</Link>
-</section>
-<section class="stage2">
-<Link >
-    <figure class="ball2 bubble"><img class='img2' src={require('../pics/games.png')}/></figure>
-</Link>
-</section>
-<section class="stage3">
-<Link >
-    <figure class="ball3 bubble"><img class='img3' src={require('../pics/songs.png')}/></figure>
-</Link>
-</section>
-<section class="stage4">
-<Link>
-    <figure class="ball4 bubble"><img class='img4' src={require('../pics/whoknows.png')}/></figure>
-</Link>
-</section> */}
 
-		{/* <div class="sidenav">
-        
-        <a class="myanq" href="/stories">Stories</a>
-        
-        <a class="myanq" href="/songs">Songs</a>
-        <a class="myanq" href="/games">Games</a>
-        <a class="myanq" href="#">Music</a>
-      </div>
-      */}
-    
+   <a href="/aboutus" class="menu-item red"> ABOUT<i class="fa fa-heart"></i> </a>
+   <a href="/register" class="menu-item purple">SIGN UP <i class="fa fa-microphone"></i> </a>
+  
+ 
+</nav>
+</div>
 		</>
 		
 	);
