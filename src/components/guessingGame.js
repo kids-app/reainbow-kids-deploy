@@ -65,7 +65,7 @@
 //     var words=props.post.content.split(" ");
 //     for(var i=0;i<words.length;i++){
 //         var data=onSearch(words[i])
-//         if (data.lexical==='adj'){
+//         if (data.lexical=='adj'){
 //             adjectives.push(words[i])
 //         }
 //     }

@@ -22,7 +22,7 @@ export default function AllGames(){
 <div class='game1div'>
 <Link to='/piano' >
 <section class="stagegames">
-  <figure class="ball"><span class="shadow"></span><img alt='img' class='imgpiano' src={require('../pics/pianopic.png')}/></figure>
+  <figure class="ball"><span class="shadow"></span><img  alt='img' class='imgpiano' src={require('../pics/pianopic.png')}/></figure>
   
 </section>
 </Link>
