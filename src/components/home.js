@@ -27,11 +27,10 @@ class Home extends React.Component {
           <Footer />
                 {this.renderlogin()}
                 <main class='main'>
-                <img alt='img' class='img1' src={require('../pics/story3.png')}/>
+              
                     <section class="stage">
                         <Link onClick={this.setRedirect}>
-
-                            <figure class="ballmain bubble"></figure>
+                            <figure class="ballmain bubble"><img alt='img' class='img1' src={require('../pics/xo.png')}/></figure>
                         </Link>
                         
                         
