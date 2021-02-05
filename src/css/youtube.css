@@ -1,0 +1,66 @@
+
+
+.allVid{
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* margin:-10px; */
+    /* width: 500px; */
+    /* flex-direction: row-reverse; */
+    /* padding: -0.5%; */
+}
+.youtubeLink{ 
+
+
+    
+           /* margin-top: 100px;
+        margin-right: 90px; */
+        border-radius: 50%;  
+        width: 250%;
+        margin-top: -50px;
+        margin-left:-50px ;
+        display: flex;
+    
+}
+
+/* .divofallvid{ */
+    /* width: 200px;
+    margin-top: 200px; */
+    /* position: absolute; */
+    
+/* }  */
+
+/* .ALL{
+    padding: 1%;
+    background-color: rgba(177, 70, 168, 0.329);
+    border-radius: 5%;
+    width:50%;
+    height: 50px;
+    box-shadow: 5px 5px #9DD8F7, 10px 10px #F98EBB, 15px 15px #FAF088;
+    margin-left: 790px;
+    margin-top: -618px;
+} */
+
+ .vee{ 
+    padding: 5%;
+    background-color: rgba(177, 70, 168, 0.329);
+    border-radius: 50%;
+    width:5%;
+    height: 30px;
+    /* box-shadow: 5px 5px #9DD8F7; */
+    margin-left: 350px;
+    margin-top: 10px; 
+    
+    flex-shrink: 3;
+} 
+
+.songs{
+text-align: center;
+}
+
+.youtubecontainer{
+    width:100%;
+    height: 400px;
+    justify-content: center;
+    /* flex: 1 1 160px;   */
+    flex-direction: row | row-reverse | column | column-reverse;
+}
