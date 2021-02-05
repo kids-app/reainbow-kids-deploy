@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from "react";
 import axios from 'axios';
 import PostLoadingComponent from './components/postLoading';
-import { BrowserRouter as Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 import Nav from '../src/components/nav';
 
 import "./css/youtube.css";

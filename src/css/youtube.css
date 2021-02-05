@@ -47,7 +47,7 @@
     width:5%;
     height: 30px;
     /* box-shadow: 5px 5px #9DD8F7; */
-    margin-left: 350px;
+    margin-left: 90px;
     margin-top: 10px; 
     
     flex-shrink: 3;
@@ -58,9 +58,20 @@ text-align: center;
 }
 
 .youtubecontainer{
+    margin-top: 80px;
+    margin-left: 210px;
     width:100%;
     height: 400px;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
     /* flex: 1 1 160px;   */
-    flex-direction: row | row-reverse | column | column-reverse;
+    /* flex-direction: row | row-reverse | column | column-reverse; */
+
+}
+.iframe{
+    /* width: 600px;
+    height: 400px; */
+    margin-top: 350px;
+    margin-left: 460px;
 }
