@@ -764,7 +764,7 @@ body {
   border-radius: 50%;
   width: 70%;
   height: 70%;
-  opacity: 90%;
+  /* opacity: 90%; */
 }
 
 .img2{
@@ -773,7 +773,7 @@ body {
   border-radius: 50%;
   width: 80%;
   height: 80%;
-  opacity: 90%;
+  /* opacity: 90%; */
 }
 .img3{
   margin-left:30px;
@@ -781,7 +781,7 @@ body {
   border-radius: 50%;
   width: 80%;
   height: 80%;
-  opacity: 90%;
+  /* opacity: 90%; */
 }
 .img4{
   margin-left:25px;
@@ -789,7 +789,7 @@ body {
   border-radius: 50%;
   width: 80%;
   height: 80%;
-  opacity: 80%;
+  /* opacity: 80%; */
 }
 
 .xogame{
