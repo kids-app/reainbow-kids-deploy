@@ -3,8 +3,8 @@ import React from 'react'
 function Square({ value, onClick }) {
     const style = {
         fontSize: '30px',
-        backgroundColor: '#ff3385',
-        opacity:'60%',
+        backgroundColor: '#ff3385b0',
+        // opacity:'60%',
         border: '2px solid #e6ecff',
         fontWeight: '800',
         cursor: 'pointer',

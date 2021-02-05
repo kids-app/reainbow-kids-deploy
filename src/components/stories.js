@@ -2,13 +2,13 @@
 
 import React, { Component }  from "react";
 import { useEffect, useState } from 'react';
-import {  BrowserRouter as  Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import ReactCardCarousel from "react-card-carousel";
 import PostLoadingComponent from './postLoading';
 import axiosInstance from '../axios';
 
-import Nav from './nav';
+import Navstories from './storiesnav';
 import '../stories.css';
 
 
@@ -84,7 +84,7 @@ class Posts extends Component {
           </div>
 
           
-          <Nav />
+          <Navstories />
         </>
 
           

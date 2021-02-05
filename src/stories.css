@@ -176,9 +176,9 @@
 .storyImage{
     width:250px;
     height: 250px;
-    box-shadow: 5px 5px #549af5, 10px 10px #F98EBB, 15px 15px #FAF088;
+    /* box-shadow: 5px 5px #549af5, 10px 10px #F98EBB, 15px 15px #FAF088; */
     margin:20px;
-    background-color: #B298C8;
+    /* background-color: #B298C8; */
     margin-left:50px;
     margin-top:60px ;
     border-radius: 4%;

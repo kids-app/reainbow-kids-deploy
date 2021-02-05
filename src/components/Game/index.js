@@ -39,7 +39,7 @@ function Game() {
                 return (
                     <>
                     <div class='divnavgame'>
-                     <Nav3 />
+                   
                     <li className='listButtons' key={move}>
                         
                         <button className='buttons' onClick={() => jumpTo(move)}>{destination}</button>
@@ -48,11 +48,8 @@ function Game() {
                     </div>
                     </>
                 )
-            }
-        
-         
-            }
-           
+            }       
+            }           
         )  
     )
 
@@ -66,6 +63,7 @@ function Game() {
             <div className="moves">
                 {renderMoves()}
             </div>
+            <Nav3 />
         </>
     )
 

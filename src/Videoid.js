@@ -25,7 +25,7 @@ function Sss(props){
     return(
     <>
     
-    <iframe title='iframe' className='iframe'  src={"https://www.youtube.com/embed/"+props.id} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe  title='iframe' className='iframe'  src={"https://www.youtube.com/embed/"+props.id} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
         </>
     )
