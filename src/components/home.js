@@ -30,7 +30,7 @@ class Home extends React.Component {
               
                     <section class="stage">
                         <Link onClick={this.setRedirect}>
-                            <figure class="ballmain bubble"><img class='img1' src={require('../pics/story3.png')}/></figure>
+                            <figure class="ballmain bubble"><img alt='img' class='img1' src={require('../pics/story3.png')}/></figure>
                         </Link>
                         
                         

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "../css/footer.css";
 import "../css/nav.css";
 import Nav2 from './nav2.js';
-import Footer2 from './footer2';
+// import Footer2 from './footer2';
 import "../css/games.css";
 import "../css/nav.css";
 
@@ -22,7 +22,7 @@ export default function AllGames(){
 <div class='game1div'>
 <Link to='/piano' >
 <section class="stagegames">
-  <figure class="ball"><span class="shadow"></span><img class='imgpiano' src={require('../pics/pianopic.png')}/></figure>
+  <figure class="ball"><span class="shadow"></span><img alt='img' class='imgpiano' src={require('../pics/pianopic.png')}/></figure>
   
 </section>
 </Link>
@@ -31,7 +31,7 @@ export default function AllGames(){
 </div>
 <Link to='/gamexo' >
 <section class="stagegames2">
-  <figure class="ballgames"><span class="shadow"></span><img class='imgxo' src={require('../pics/xo.png')}/></figure>
+  <figure class="ballgames"><span class="shadow"></span><img alt='img' class='imgxo' src={require('../pics/xo.png')}/></figure>
 </section>
 </Link>
 <Nav2 />
