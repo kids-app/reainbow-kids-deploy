@@ -27,14 +27,14 @@ class Home extends React.Component {
                 {this.renderlogin()}
                 <main class='main'>
                 <img alt='img' class='img1' src={require('../pics/story3.png')}/>
-                    <section class="stage">
+                    {/* <section class="stage"> */}
                         {/* <Link onClick={this.setRedirect}>
                             <figure class="ball bubble"></figure>
                         </Link>
                          */}
                         
-                       
-                    </section>
+{/*                        
+                    </section> */}
                     <section class="stage2">
                         <Link onClick={this.setRedirect}>
                             <figure class="ball2 bubble"><img alt='img' class='img2' src={require('../pics/games.png')}/></figure>
