@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import PostLoadingComponent from './postLoading';
-import Footer from './footer';
 import axios from 'axios';
 
 

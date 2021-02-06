@@ -91,7 +91,6 @@ class App extends Component {
         // this.setAlbumIndex(result)
         break;
        default:
-        let text = "Looking forward to the Weekend";
     //   case 'Drake':
     //     track = this.getRandomInt(2,3)
     //     this.gameVersion(track)
@@ -204,8 +203,9 @@ class App extends Component {
 
   //Add guessed letter to word bank
   setWordBank = (currentAnswer) => {
-      if( this.state.wordBank.includes(currentAnswer) == false ) {
+      if( this.state.wordBank.includes(currentAnswer) === false ) {
         //Add current answer to word bank pointer
+        // eslint-disable-next-line react/no-direct-mutation-state
         let sortedBank = this.state.wordBank += currentAnswer
         //sort word bank pointer
         sortedBank = sortedBank.split('').sort().join('')
