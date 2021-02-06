@@ -1,25 +1,32 @@
 import React from "react";
 import Youtube from './Youtubek';
 import "./css/youtube.css";
+
+const geth1 =() =>{
+alert('hi')
+}
 function Videoid({match}){
   
     console.log(match.params.id)
+   
         return(
             <>
             <div class='ALL'>
           <div className='mainVid'>
+        
           <Sss id={match.params.id} />
           </div>
           <div class='divofallvid'>
           <div className='allVid'>
-          <Youtube/>
+          <Youtube show_title='none'/>
           </div>
-          </div>
-          </div>
+          </div> 
+           </div>
          
    
      </>
         )
+        
       }
 function Sss(props){
     return(

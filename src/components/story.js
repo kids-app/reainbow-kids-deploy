@@ -53,13 +53,13 @@ function Joudi  ({match}){
                 <img className='second' src={props.post.img} alt='stories-img'/>
                 <audio className='third' src={props.post.audio} controls> <embed src={props.post.audio} width="300" height="90" loop="false" autostart="false"></embed> </audio>
                 </div>
-                <div className='five' > <button className='but'><Link to={`/guessing/${props.post.id}`} >Guessing Game</Link></button></div>
+               <div className='five' > </div>
                 </div>
                 <div className='par'><p className='fourth'>{props.post.content}</p></div> 
                 
             
             </div>
-            <Footer2 />
+        
             <Nav />
             </>
         )

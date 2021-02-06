@@ -67,12 +67,12 @@ class Posts extends Component {
 
 
             <>
-            <div style={Posts.CONTAINER_STYLE}>
+            <div class='divall' style={Posts.CONTAINER_STYLE}>
             <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
             {this.props.posts.map((post)=>{
               return(
               
-                <div style={Posts.CARD_STYLE}><Link to={`/${post.id}`}  >
+                <div  style={Posts.CARD_STYLE}><Link to={`/${post.id}`}  >
                   <div className='storyImage'>
                   <img alt='img' className='imagest'  src={post.img}/></div>
                   <h2 className='titlo' >{post.title}</h2></Link></div>

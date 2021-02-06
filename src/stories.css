@@ -95,19 +95,21 @@
 }
 
  .first{
-    color: purple;
-    
-    margin-top: 90px;
-    float: left;
-    margin-left:150px;
+    color: black;
+/*     
+    margin-top: 90px; */
+    /* float: left; */
+    padding-top: 10%;
+    margin-left:100px;
+  font-size: 30px;
 } 
 
 .second{
    width:190px;
-   margin-left: -180px;
-   margin-top: 180px;
+   margin-left: 120px;
+   margin-top: 20px;
    border-radius: 25px;
-   /* position:absolute; */
+
 }
 .third{
    
@@ -120,11 +122,11 @@
 .fourth{
     float: right;
     margin-left: 160px;
-    margin-bottom: 10px;
-    /* margin-top:30px; */
+    /* margin-bottom: 10px; */
+    margin-top:30px;
     /* margin-right: 20px;   */
-    width:80%;
-    height: 500px;
+    width:90%;
+    height: 90%;
     overflow-y: scroll;
 }
 .five{
@@ -136,35 +138,39 @@
 }
 
 .par{
-    background-color: rgba(177, 70, 168, 0.329);
+    background-color: #d1b4ebe5;
     border-radius: 5%;
-    width:35%;
-    height: 550px;
+    width:28%;
+    height: 500px;
     box-shadow: 5px 5px #9DD8F7, 10px 10px #F98EBB, 15px 15px #FAF088;
-    margin-left: 790px;
-   
-    margin-top: -618px;
+    margin-left: 850px;
+    font-family: serif;
+    font-weight: lighter;
+    margin-top: -570px;
+    font-size: 15px;
+    line-height: 30px;
    
     
 }
 
 .part1{
-    background-color: rgba(177, 70, 168, 0.329);
+    background-color: #d1b4ebe1;
     border-radius: 5%;
-    width:35%;
-    height: 550px;
+    width:28%;
+    height: 500px;
     box-shadow: -5px 5px #9DD8F7, -10px 10px #F98EBB, -15px 15px #FAF088;
-    margin-left: 260px;
+    margin-left: 420px;
     margin-bottom: 66px;
-    margin-top:100px;
+    margin-top:150px;
     margin-right: 20px; 
+   
 }
 
-.but{
-    background-color: rgba(231, 195, 228, 0.329);
+/* .but{
+    background-color: rgba(82, 16, 76, 0.329);
     border-radius: 5%;
     
-}
+} */
 
 /* .imgand{
     position: relative;
@@ -203,7 +209,7 @@ a:link {
 /***********************************************************/
 
 .infocardContainer * {
-    font-family: 'Fira Sans Condensed', sans-serif;
+    
     font-weight: 300;
   }
   h2 {
@@ -787,4 +793,23 @@ a:link {
     max-width: 30px;
     --margin: 0 1px 0 1px;
     border-radius: 25px;
+  }
+
+
+  .titlo{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #62dbeb98;
+    width: 90%;
+    height: 15%;
+    padding-top: 10%;
+    margin-left: 5%;
+    
+    
+  }
+
+  .divall{
+    text-decoration: none;
+    text-align: center;
   }

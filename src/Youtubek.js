@@ -2,14 +2,15 @@ import React, { useState,useEffect } from "react";
 import axios from 'axios';
 import PostLoadingComponent from './components/postLoading';
 import {  Link } from 'react-router-dom';
-import Nav from '../src/components/nav';
+import NavSongs from '../src/components/navSongs';
 
 import "./css/youtube.css";
 
 
-function Youtube(){
+function Youtube(props){
   const PostLoading = PostLoadingComponent(video);
-
+  
+  let dd="unset"
   const [appState, setAppState] = useState({
       loading: true,
       songs: null,
@@ -20,14 +21,21 @@ function Youtube(){
           setAppState({ loading: false, songs: songs });
       });
   }, [setAppState]);
+    if(props.show_title === 'none'){
+          dd=props.show_title
+    }
   return(
     <>
-    <h1 className='songs'>Songs List</h1>
-      <div>
+    <body class='songsbody'>
+    <div class='h1divv'>
+    <h1 id='Aghyad' style ={{display:`${dd}`}} className='songsTitle'>Songs</h1>
+    </div>
+      <div class='allSongsDiv'>
              <PostLoading isLoading={appState.loading} songs={appState.songs} />
       </div>
-     
-       <Nav />
+    
+       <NavSongs />
+       </body>
        </>
   )
   

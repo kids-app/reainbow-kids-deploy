@@ -1,23 +1,22 @@
 
 import React from 'react';
-import "../css/footer.css";
-import "../css/nav.css";
+import "../css/nav3.css";
 
 
 
 
 
-function Nav(){
+function Nav3(){
 	return (
 		<>
 
-<section class="navsect">
+<section class="navsectXO">
   <div id="home" class="navdiv"><p id="homep" class="p">  <a class="myanq" href="/home">Home</a></p></div>
-  <div class="navdiv" id="about"><p class="p"><a class="myanq" href="/stories">Stories</a></p>
+  <div class="navdivXO" id="about"><p class="p"><a class="myanq" href="/stories">Stories</a></p>
   </div>
-  <div class="navdiv" id="contact"><p class="p"><a class="myanq" href="/games">Games</a></p>
+  <div class="navdivXO" id="contact"><p class="p"><a class="myanq" href="/games">Games</a></p>
   </div>
-  <div class="navdiv" id="gallery"><p class="p"><a class="myanq" href="/songs">Songs</a></p>
+  <div class="navdivXO" id="gallery"><p class="p"><a class="myanq" href="/songs">Songs</a></p>
   </div>
 
 </section>
@@ -28,4 +27,4 @@ function Nav(){
 	);
 }
 
-export default Nav;
+export default Nav3;

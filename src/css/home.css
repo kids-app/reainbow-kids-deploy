@@ -1,17 +1,29 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto&family=Staatliches&display=swap');
+
+*{
+  font-family: 'Luckiest Guy', cursive;
+}
+.mainbody {
     background-image: url("../pics/final2.png");
 	background-size: cover;
   background-repeat: no-repeat;
-  
-  font-family: 'Potta One', cursive;
+
 	
 width:auto;
 	margin: 0;
   padding: 0;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
-
+.welcome{
+  margin-top: -60px;
+  margin-left:120px ;
+  color: #775d8b;
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.12);
+}
+/* .rainbow{
+  display: inline-block;
+} */
 
 .ballmain {
    
@@ -502,7 +514,7 @@ width:auto;
         height: 250px;
         display: inline-block;
         margin-left: 100px;
-        margin-top: 150px;
+        margin-top: 60px;
         -webkit-perspective: 1200px;
         -moz-perspective: 1200px;
         -ms-perspective: 1200px;
@@ -765,7 +777,7 @@ width:auto;
   border-radius: 50%;
   width: 70%;
   height: 70%;
-  /* opacity: 90%; */
+  opacity: 0.9;
 }
 
 .img2{
@@ -774,7 +786,7 @@ width:auto;
   border-radius: 50%;
   width: 80%;
   height: 80%;
-  /* opacity: 90%; */
+  opacity: 0.9;
 }
 .img3{
   margin-left:30px;
@@ -782,7 +794,7 @@ width:auto;
   border-radius: 50%;
   width: 80%;
   height: 80%;
-  /* opacity: 90%; */
+  opacity: 0.9;
 }
 .img4{
   margin-left:25px;
@@ -790,11 +802,27 @@ width:auto;
   border-radius: 50%;
   width: 80%;
   height: 80%;
-  /* opacity: 80%; */
+  opacity: 0.9;
 }
 
 .xogame{
   margin-left: 300px;
 }
 
-
+.paraDiv{
+  width: 40%;
+  background-color: rgba(127, 255, 255, 0.212);
+  font-family: serif;
+  margin-left: 200px;
+  font-size: 20px;
+  /* text-align: center; */
+  /* border: #775d8b 1px solid; */
+}
+.homaPara{
+  width: 80%;
+ padding-left: 2%;
+ padding-top: 1%;
+ padding-bottom: 1%;
+  /* margin-left: 200px; */
+ 
+}
