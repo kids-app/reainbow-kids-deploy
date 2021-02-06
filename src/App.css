@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Lemonada&display=swap');
 
 .app-container {
   position: absolute;
@@ -136,4 +138,7 @@ padding: 35px;
 }
 .textBox{
   font-size: 1pc;
+}
+.fourth{
+  font-family: 'Lemonada', cursive;
 }

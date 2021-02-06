@@ -3,11 +3,18 @@ import "../css/home.css";
 import { Redirect } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import Footer from './footer';
-
+import stories from '../assets/Audio/stories.mp3';
+import songs from '../assets/Audio/songs.mp3';
+import games from '../assets/Audio/games.mp3';
+import guessthesong from '../assets/Audio/guessthesong.mp3';
 
 class HomeAfter extends React.Component {
     state = {
-        redirect: false
+        redirect: false,
+        audio : new Audio(stories),
+        audio2 : new Audio(songs),
+        audio3 : new Audio(games),
+        audio4 : new Audio(guessthesong),
     }
     setRedirect = () => {
         this.setState({
@@ -19,6 +26,22 @@ class HomeAfter extends React.Component {
             return <Redirect to='/login' />
         }
     }
+    changeBackground =(e) => {
+
+        this.state.audio.play()
+      }
+    changeBackground2 =(e) => {
+
+        this.state.audio2.play()
+      }  
+    changeBackground3 =(e) => {
+
+        this.state.audio3.play()
+      }  
+    changeBackground4 =(e) => {
+
+        this.state.audio4.play()
+      }
     render() {
         return (
             <>
@@ -31,22 +54,31 @@ class HomeAfter extends React.Component {
                     <section class="stage">
 
                         <Link to='/stories' >
-                            <figure class="ballmain bubble"><img alt='img' class='img1' src={require('../pics/story3.png')}/></figure>
+                            <figure onMouseOver={this.changeBackground}
+
+                            class="ballmain bubble"><img alt='img' class='img1' src={require('../pics/story3.png')}/></figure>
                         </Link>
                     </section>
                     <section class="stage2">
                         <Link to='/games' >
-                            <figure class="ball2 bubble"><img alt='img' class='img2' src={require('../pics/games.png')}/></figure>
+                            <figure onMouseOver={this.changeBackground3}
+                                
+                             class="ball2 bubble"><img alt='img' class='img2' src={require('../pics/games.png')}/>
+                             </figure>
                         </Link>
                     </section>
                     <section class="stage3">
                         <Link to='/songs'>
-                            <figure class="ball3 bubble"><img alt='img' class='img3' src={require('../pics/songs.png')}/></figure>
+                            <figure onMouseOver={this.changeBackground2}
+
+                            class="ball3 bubble"><img alt='img' class='img3' src={require('../pics/songs.png')}/></figure>
                         </Link>
                     </section>
                     <section class="stage4">
                         <Link to='/guess'>
-                            <figure class="ball4 bubble"><img alt='img' class='img4' src={require('../pics/whoknows.png')}/></figure>
+                            <figure onMouseOver={this.changeBackground4}
+
+                            class="ball4 bubble"><img alt='img' class='img4' src={require('../pics/guess2.png')}/></figure>
                         </Link>
                     </section>
                     {this.renderlogin()}
