@@ -753,15 +753,16 @@ width:auto;
       border: solid 2px  #816f91;
       border-radius: 2%;
       color: white;
-      font-size: xx-large;
+      font-size: 35px;
       box-shadow: 5px 5px #9DD8F7, 10px 10px #f98ebb, 15px 15px #FAF088;
-      font-family: 'Potta One', cursive;
+      
     }
 
     .signin:hover{
       background-color:rgb(178, 152, 200);
       color: black;
       font-weight: bold;
+      font-size: 40px;
       border: solid 2px  rgb(178, 152, 200) ;
     }
 .clickme{

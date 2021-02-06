@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Nav3 from './nav3.js';
+import Nav from './nav.js';
 // import Footer2 from './footer2';
 import "../css/games.css";
+import Nav3 from './nav3.js';
 
 
 export default function AllGames(){
