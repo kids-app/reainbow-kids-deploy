@@ -2,9 +2,6 @@ import React from "react";
 import Youtube from './Youtubek';
 import "./css/youtube.css";
 
-const geth1 =() =>{
-alert('hi')
-}
 function Videoid({match}){
   
     console.log(match.params.id)
