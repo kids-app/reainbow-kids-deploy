@@ -42,12 +42,13 @@ class Posts extends Component {
       display: "flex",
       flex: 1,
       justifyContent: "center",
-      alignItems: "middle"
+      alignItems: "middle",
+      marginTop:'20px',
     };
   }
   static get CARD_STYLE() {
     return {
-      height: "550px",
+      height: "450px",
       width: "350px",
       paddingTop: "80px",
       textAlign: "center",
@@ -57,7 +58,8 @@ class Posts extends Component {
       fontSize: "12px",
       // textTransform: "uppercase",
       borderRadius: "10px",
-      boxSizing: "border-box"
+      boxSizing: "border-box",
+      marginTop:'20px',
       
     };
   }
@@ -67,12 +69,12 @@ class Posts extends Component {
 
 
             <>
-            <div style={Posts.CONTAINER_STYLE}>
+            <div class='divall' style={Posts.CONTAINER_STYLE}>
             <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
             {this.props.posts.map((post)=>{
               return(
               
-                <div style={Posts.CARD_STYLE}><Link to={`/${post.id}`}  >
+                <div  style={Posts.CARD_STYLE}><Link to={`/${post.id}`}  >
                   <div className='storyImage'>
                   <img alt='img' className='imagest'  src={post.img}/></div>
                   <h2 className='titlo' >{post.title}</h2></Link></div>
@@ -93,7 +95,7 @@ class Posts extends Component {
     );
   }
 }
-// export default Posts;
+
 export default Stories;
 
 

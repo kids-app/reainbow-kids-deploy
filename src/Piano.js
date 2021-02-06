@@ -1,6 +1,6 @@
 import React from "react";
 import Instrument from "./Instrument";
-import Nav from "./components/nav";
+import Nav3 from "./components/nav3";
 
 const Piano = () => {
   const accidentalKey = ({ isPlaying, text, eventHandlers }) => {
@@ -105,7 +105,7 @@ const Piano = () => {
         }}
       />
     </div>
-    <Nav />
+    <Nav3 />
     </>
   );
 };

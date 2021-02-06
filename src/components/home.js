@@ -23,11 +23,15 @@ class Home extends React.Component {
     render() {
         return (
             <>
-             
+             <body>
           <Footer />
                 {this.renderlogin()}
                 <main class='main'>
-              
+               {/* <h2 class='welcome'> Welcome To </h2> */}
+              <h1 class='welcome'> Welcome To Rainbow-KID</h1>
+              <div class='paraDiv'>
+              <p class='homaPara'>Where you can safely leave your kid to have fun and learn navigating through ranibow-kid's features.</p>
+              </div>
                     <section class="stage">
                         <Link onClick={this.setRedirect}>
                             <figure class="ballmain bubble"><img alt='img' class='img1' src={require('../pics/story3.png')}/></figure>
@@ -55,7 +59,7 @@ class Home extends React.Component {
                     
                 </main>
                
-                
+                </body>
             </>
         )
     }

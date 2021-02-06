@@ -24,6 +24,10 @@ class HomeAfter extends React.Component {
             <>
             <Footer />
                 <main>
+                <h1 class='welcome'> Welcome To Rainbow-KID</h1>
+              <div class='paraDiv'>
+              <p class='homaPara'>Where you can safely leave your kid to have fun and learn navigating through ranibow-kid's features.</p>
+              </div>
                     <section class="stage">
 
                         <Link to='/stories' >

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../css/footer.css";
-import "../css/nav.css";
-import Nav2 from './nav2.js';
+
+import Nav from './nav.js';
 // import Footer2 from './footer2';
 import "../css/games.css";
-import "../css/nav.css";
+import Nav3 from './nav3.js';
+
 
 export default function AllGames(){
     return(
@@ -34,7 +34,7 @@ export default function AllGames(){
   <figure class="ballgames"><span class="shadow"></span><img alt='img' class='imgxo' src={require('../pics/xo.png')}/></figure>
 </section>
 </Link>
-<Nav2 />
+<Nav3 />
 
          </>
 
