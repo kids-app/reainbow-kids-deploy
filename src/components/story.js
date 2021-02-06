@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import PostLoadingComponent from './postLoading';
 
-import {  BrowserRouter as  Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Footer2 from './footer2';
 
 import Nav from './nav';

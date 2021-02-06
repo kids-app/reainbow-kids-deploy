@@ -45,7 +45,7 @@ class HomeAfter extends React.Component {
                         </Link>
                     </section>
                     <section class="stage4">
-                        <Link>
+                        <Link to='/guess'>
                             <figure class="ball4 bubble"><img alt='img' class='img4' src={require('../pics/whoknows.png')}/></figure>
                         </Link>
                     </section>

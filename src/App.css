@@ -71,3 +71,69 @@
   outline: none;
   color: #dbdbdd;
 }
+.home{
+width:70% ;
+text-align: center;
+margin-top: 250px;
+background-color:#d1e2f37a ;
+margin-left: 220px;
+padding: 25px;
+/* border-radius: 50%; */
+}
+
+.gusp{
+  font-size: 1.5pc;
+}
+.gush{
+  font-size: 3pc;
+
+}
+.gusin{
+  /* width: 100px;
+  height: 50px;
+  margin-left: 25%; */
+/* margin-top: 20px; */
+
+}
+.guss{
+  width: 100px;
+  /* height: 25px; */
+  margin-left: 40%;
+  color: #000;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: #ffbdb5;
+  padding: 5px;
+  margin-top: 10px;
+}
+.center{
+  text-align: center;
+}
+.gusa{
+  margin-left: 6%;
+  margin-top: 50px;
+}
+.btngus{
+    color: #000;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: #ffbdb5;
+    padding: 10px;
+}
+.inputBox{
+width:30% ;
+text-align: center;
+margin-top: 90px;
+background-color:#d1e2f37a ;
+margin-left: 470px;
+padding: 35px;
+}
+.title{
+  margin-top: 10%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2.5pc;
+}
+.textBox{
+  font-size: 1pc;
+}
