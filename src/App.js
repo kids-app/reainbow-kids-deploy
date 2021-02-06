@@ -10,7 +10,7 @@ import Guess from './components/Guess/Guess.js';
 import PlayAgain from './components/PlayAgain/PlayAgain.js';
 import Wordbank from './components/Wordbank/Wordbank.js';
 import Nav2 from './components/nav2';
-import Nav from './components/nav';
+import Nav4 from './components/nav4';
 import './css/nav.css';
 
 import bluebirdthroughmywindow from './assets/Audio/bluebirdthroughmywindow.mp3';
@@ -268,7 +268,7 @@ class App extends Component {
           <PlayAgain 
           gameWon={this.state.gameWon}
           restartGame={this.restartGame}/>
-          <Nav/> 
+          <Nav4/> 
           </>
         )
       }

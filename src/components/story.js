@@ -33,7 +33,8 @@ function Joudi  ({match}){
                     setAppState({ loading: false, post: detailPost });
                     console.log(res);
                 });
-            });
+            // eslint-disable-next-line react-hooks/exhaustive-deps
+            },[setAppState]);
             return(
                 <div>
                        <PostLoading isLoading={appState.loading} post={appState.post} />

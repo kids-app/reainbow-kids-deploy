@@ -14,7 +14,7 @@ import  Stories  from './components/stories';
 import Joudi from './components/story';
 import Aboutus from './components/aboutus';
 import "./App.css";
-import Mais from './components/guessingGame';
+// import Mais from './components/guessingGame';
 
 
 import Home from './components/home';
@@ -46,7 +46,7 @@ const routing = (
                 <Route className="app-container" path="/piano" component={Piano} />
                 <Route path="/games" component={AllGames} />
                 <Route path="/register" component={Register} />
-                <Route path="/guessing/:id" component={Mais} />
+                {/* <Route path="/guessing/:id" component={Mais} /> */}
                 <Route path="/login" component={Login} />
                 <Route path="/logout" component={Logout} />
                 <Route  path="/stories" component={Stories}/>    
