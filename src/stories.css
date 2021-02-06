@@ -192,10 +192,10 @@
 }
 
 .imagest{
-    margin-top:20px;
+    /* margin-top:20px; */
     width:210px;
     height:200px;
-    margin-top:28px;
+    margin-top:-50px;
     border-radius: 4%;
 }
 
@@ -798,15 +798,18 @@ a:link {
 
   .titlo{
     color: black;
-    font-weight: bold;
+    font-size: 25px;
     text-decoration: none;
     background-color: #9dd8f7;
     box-shadow:4px 5px 7px  #888888;
+    font-family: 'Luckiest Guy', cursive;
     border-radius: 3%;
     width: 90%;
-    height: 15%;
+    height: 20%;
     padding-top: 10%;
     margin-left: 5%;
+    font-style: inherit;
+    margin-top: -100px;
     
     
   }

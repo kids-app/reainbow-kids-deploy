@@ -42,12 +42,13 @@ class Posts extends Component {
       display: "flex",
       flex: 1,
       justifyContent: "center",
-      alignItems: "middle"
+      alignItems: "middle",
+      marginTop:'20px',
     };
   }
   static get CARD_STYLE() {
     return {
-      height: "550px",
+      height: "450px",
       width: "350px",
       paddingTop: "80px",
       textAlign: "center",
@@ -57,7 +58,8 @@ class Posts extends Component {
       fontSize: "12px",
       // textTransform: "uppercase",
       borderRadius: "10px",
-      boxSizing: "border-box"
+      boxSizing: "border-box",
+      marginTop:'20px',
       
     };
   }
@@ -93,7 +95,7 @@ class Posts extends Component {
     );
   }
 }
-// export default Posts;
+
 export default Stories;
 
 
