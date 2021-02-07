@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import './css/nav2.css';
 import HomeScreen from './components/HomeScreen/HomeScreen.js';
 import Title from './components/Title/Title.js';
 import Timer from './components/Timer/Timer.js';
@@ -11,7 +10,6 @@ import PlayAgain from './components/PlayAgain/PlayAgain.js';
 import Wordbank from './components/Wordbank/Wordbank.js';
 import Nav2 from './components/nav2';
 import Nav4 from './components/nav4';
-import './css/nav.css';
 
 import bluebirdthroughmywindow from './assets/Audio/bluebirdthroughmywindow.mp3';
 import BodyParts from './assets/Audio/BodyParts.mp3';
@@ -46,7 +44,7 @@ class App extends Component {
     //   currentAudio: Loot,
       wordBank: '',
       tracks: [
-{songs: ['bluebird through my window', 'Body Parts', 'Clap Your Hand'], album: 'Yeezus', audio: [bluebirdthroughmywindow, BodyParts, ClapYourHands]},
+{songs: ['bluebird through my window', 'Body Parts', 'Clap Your Hands'], album: 'Yeezus', audio: [bluebirdthroughmywindow, BodyParts, ClapYourHands]},
 {songs: ['dancing rainbow colors', 'friends', 'funny long song'], album: 'The Life Of Pablo', audio:[dancingrainbowcolors, Friends, FunnyLongSong]},
 {songs: ['good morning', 'in his hands', 'ready to get washed'], album: 'Scorpion', audio: [GoodMorning, InHisHands, ReadytoGetWashed]},
 // {songs: ['Shot for Me', 'Headlines', 'Marvins Room'], album: 'Take Care',audio: [Shot, Headlines, MarvinsRoom]},
